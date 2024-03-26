@@ -6,6 +6,6 @@ function handleInput(event) {
   if (event.currentTarget.value.trim() === "") {
     outName.textContext = "Anonymous";
   } else {
-    outName.textContent = event.currentTarget.value.trim();
+    outName.textContext = event.currentTarget.value.trim();
   }
 }

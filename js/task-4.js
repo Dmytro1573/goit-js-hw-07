@@ -18,7 +18,3 @@ function handleSubmit(event) {
   console.log(infoForm);
   this.reset();
 }
-
-document
-  .getElementById("input")
-  .addEventListener("focus", () => (this.value = "Text area"));
